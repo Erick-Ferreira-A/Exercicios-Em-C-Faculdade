@@ -9,7 +9,7 @@
 int main() {
 	
 	int num;
-	int qtd = 1; 
+	int contador = 1; 
 	
 	printf("---------- CONTAGEM ----------\n");
 	
@@ -29,12 +29,13 @@ int main() {
 	
 	printf("\nIniciando contagem de 1 ate %d:\n\n",num);
 	
-	while (qtd <= num) {
-		printf("%i\n", qtd);
+	while (contador <= num) {
+		printf("%d\n", contador);
 		
-		qtd++;
+		contador++;
 	}
 	
 	printf("\nContagem concluida com sucesso!\n");
 	
+	return 0;
 }
