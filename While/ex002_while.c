@@ -27,6 +27,12 @@ int main() {
 		return 1;
 	}
 	
+	// Verificando se o numero é maior que 1000000
+	if (num > 1000000) {
+		printf("Erro: numero muito grande para contagem. Digite um numero menor ou igual a 1.000.000\n");
+		return 1;
+	}
+	
 	printf("\nIniciando contagem de 1 ate %d:\n\n",num);
 	
 	while (contador <= num) {
